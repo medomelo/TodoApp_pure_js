@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+button {
+  width: 35%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  margin-bottom: 8px;
+  padding: 10px 0 10px 25px ;
+  border-radius: 5px;
+  position: relative;
+  text-align: start;
+  text-transform: capitalize;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.clearbtn{
+    width: 70%;
+  padding: 10px;
+  background: #36c1f8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
